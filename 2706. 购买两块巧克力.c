@@ -30,5 +30,5 @@ int buyChoco(int* prices, int pricesSize, int money){
 //else if处的判断条件如&& prices[i] >= first改为&& prices[i] != first后，则意味着找出不同的最小两个数字
 
 int main() {
-    print(buyChoco);
+    print(buyChoco(prices = [1,2,2], money = 3));
 }
